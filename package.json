@@ -1,0 +1,34 @@
+{
+  "name": "locontapixelbackend",
+  "version": "1.0.0",
+  "description": "Backend de LoContaPixel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --watch . --ext js,json --ignore node_modules --exec node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polnomas/LoContaPixelBackEnd.git"
+  },
+  "author": "Pablo Javier Altamirano Pradenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polnomas/LoContaPixelBackEnd/issues"
+  },
+  "homepage": "https://github.com/polnomas/LoContaPixelBackEnd#readme",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^14.0.0",
+    "dotenv": "^17.2.3",
+    "koa": "^3.0.3",
+    "koa-bodyparser": "^4.4.1",
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+
+}
